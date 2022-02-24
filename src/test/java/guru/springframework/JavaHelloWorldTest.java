@@ -11,5 +11,6 @@ public class JavaHelloWorldTest {
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
 
         assertEquals("Hello World", javaHelloWorld.getHello());
+        System.out.println("************ JUnit 4 test case run ************");
     }
 }

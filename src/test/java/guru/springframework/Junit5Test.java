@@ -9,10 +9,11 @@ import org.junit.jupiter.api.Test;
  */
 public class Junit5Test {
 
-    @Disabled
     @Test
     void someFauxTest() {
 
         Assert.assertEquals("foo", "foo");
+        System.out.println("************ JUnit 5 test case run ************");
+
     }
 }
